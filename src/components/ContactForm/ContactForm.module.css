@@ -1,4 +1,5 @@
 .formContainer {
+  background-color: #dadce0;
   border: 1px solid black;
   width: 400px;
   padding: 20px;
@@ -23,10 +24,10 @@
 
 .formButton {
   width: 25%;
-  background-color: #f8f9fa;
-  border: 1px solid #f8f9fa;
+  background-color: green;
+  border: 1px solid #000000;
   border-radius: 4px;
-  color: #3c4043;
+  color: #000000;
   cursor: pointer;
   font-family: arial, sans-serif;
   font-size: 14px;
@@ -40,9 +41,10 @@
 }
 
 .formButton:hover {
-  border-color: #dadce0;
+  border: 2px solid;
+  border-color: greenyellow;
   box-shadow: rgba(0, 0, 0, 0.1) 0 1px 1px;
-  color: #202124;
+  color: greenyellow;
 }
 
 .formButton:focus {
